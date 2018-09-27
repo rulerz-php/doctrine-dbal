@@ -2,7 +2,7 @@
 <?php
 
 /** @var \Doctrine\DBAL\Connection $connection */
-list($rulerz, $connection) = require_once __DIR__ . '/../bootstrap.php';
+list($rulerz, $connection) = require_once __DIR__.'/../bootstrap.php';
 
 $fixtures = json_decode(file_get_contents(__DIR__.'/../../vendor/kphoen/rulerz/examples/fixtures.json'), true);
 
