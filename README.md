@@ -50,7 +50,7 @@ $connection = DriverManager::getConnection([/** connection parameters */]);
 $queryBuilder = $connection->createQueryBuilder();
 
 $queryBuilder
-    ->select('id', 'pseudo', 'gender', 'points')
+    ->select('pseudo', 'gender', 'points')
     ->from('players');
 ```
 
