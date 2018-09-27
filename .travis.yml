@@ -21,7 +21,7 @@ before_install:
     - phpenv config-rm xdebug.ini || true
 
 install:
-    - composer install --optimize-autoloader --no-interaction
+    - composer install --optimize-autoloader --no-interaction --prefer-source
 
 script:
     - make database
