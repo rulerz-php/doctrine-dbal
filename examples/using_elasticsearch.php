@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-list($rulerz, $client) = require_once __DIR__ . '/bootstrap.php';
+list($rulerz, $client) = require_once __DIR__.'/bootstrap.php';
 
 $client = new Elasticsearch\Client([
     'hosts' => ['localhost:9200'],
