@@ -1,0 +1,38 @@
+{
+    "name": "rulerz-php/doctrine-dbal",
+    "description": "Doctrine DBAL compilation target for RulerZ",
+    "keywords": ["rulerz", "specification", "rule", "engine", "doctrine", "dbal"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kévin Gomez",
+            "email": "contact@kevingomez.fr",
+            "homepage": "http://www.kevingomez.fr/"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+
+        "kphoen/rulerz": "~0.21",
+
+        "doctrine/dbal": "^2.4"
+    },
+    "require-dev": {
+        "liip/rmt": "^1.2",
+
+        "vlucas/phpdotenv": "~2.1",
+        "behat/behat": "~3.0",
+
+        "phpunit/phpunit": "^7.1",
+        "kphoen/rusty": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "RulerZ\\DoctrineDBAL\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\RulerZ\\": "tests/"
+        }
+    }
+}
