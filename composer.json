@@ -21,7 +21,6 @@
     "require-dev": {
         "liip/rmt": "^1.2",
 
-        "vlucas/phpdotenv": "~2.1",
         "behat/behat": "~3.0",
 
         "phpunit/phpunit": "^7.1",
