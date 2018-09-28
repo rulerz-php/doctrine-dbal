@@ -1,4 +1,4 @@
-# Doctrine DBAL compilation target for RulerZ [![Build Status](https://travis-ci.org/rulerz-php/pomm.svg?branch=master)](https://travis-ci.org/rulerz-php/doctrine-dbal)
+# Doctrine DBAL compilation target for RulerZ [![Build Status](https://travis-ci.org/rulerz-php/doctrine-dbal.svg?branch=master)](https://travis-ci.org/rulerz-php/doctrine-dbal)
 
 Doctrine DBAL compilation target for [RulerZ](https://github.com/K-Phoen/rulerz).
 
