@@ -38,7 +38,7 @@ trait FilterTrait
      */
     public function filter($target, array $parameters, array $operators, ExecutionContext $context)
     {
-        /* @var \Doctrine\DBAL\Query\QueryBuilder $target */
+        /** @var \Doctrine\DBAL\Query\QueryBuilder $target */
 
         $this->applyFilter($target, $parameters, $operators, $context);
 
