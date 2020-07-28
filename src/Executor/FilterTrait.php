@@ -19,7 +19,7 @@ trait FilterTrait
     {
         /** @var \Doctrine\DBAL\Query\QueryBuilder $target */
 
-        // this will return DQL code
+        // this will return SQL code
         $sql = $this->execute($target, $operators, $parameters);
 
         // so we apply it to the query builder
